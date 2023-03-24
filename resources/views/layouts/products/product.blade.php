@@ -51,9 +51,9 @@
                                 <a href="{{ url('product/detail/'.$item->id) }}" class="flex justify-center items-center text-xs text-white font-semibold bg-sky-500 py-2 px-4 rounded-xl hover:bg-sky-600 duration-300">
                                     Lihat Detail
                                 </a>
-                                <a href="#" class="block text-center text-sky-500 font-semibold bg-sky-100 py-2 px-4 rounded-xl hover:bg-sky-200 duration-300">
+                                {{-- <a href="#" class="block text-center text-sky-500 font-semibold bg-sky-100 py-2 px-4 rounded-xl hover:bg-sky-200 duration-300">
                                     <i class="fa-solid fa-cart-shopping"></i>
-                                </a>
+                                </a> --}}
                             </div>
                         </div>
                     </div>
